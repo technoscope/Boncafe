@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_gift"
+            android:title="@string/menu_rewards" />
+        <item
+            android:id="@+id/nav_mcdelivery"
+            android:icon="@drawable/ic_delivery"
+            android:title="@string/menu_boncafedelivery" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/icon_location"
+            android:title="@string/menu_resturant" />
+        <item
+            android:id="@+id/nav_menufood"
+            android:icon="@drawable/icon_food"
+            android:title="@string/menu_food" />
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_myaccount" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_promocodes"
+            android:icon="@drawable/ic_coupon"
+            android:title="@string/menu_promocodes" />
+        <item
+            android:id="@+id/nav_RateURVisit"
+            android:icon="@drawable/ic_rateurvist"
+            android:title="@string/menu_rateurvisit" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_contactus"
+            android:title="@string/menu_contactus" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq"
+            android:title="@string/menu_fag" />
+        <item
+            android:id="@+id/nav_aboutmcdonals"
+            android:icon="@drawable/icon_about"
+            android:title="@string/menu_aboutboncafe" />
+        <item
+            android:id="@+id/nav_careers"
+            android:icon="@drawable/ic_careers"
+            android:title="@string/menu_careers" />
+        <item
+            android:id="@+id/nav_regionlng"
+            android:icon="@drawable/icon_language"
+            android:title="@string/menu_regionlanguages" />
+    </group>
+</menu>

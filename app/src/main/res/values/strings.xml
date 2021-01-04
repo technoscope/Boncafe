@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BonCafe</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_rewards">Rewards</string>
+    <string name="menu_boncafedelivery">BonCafe Delivery</string>
+    <string name="menu_resturant">Restuarant</string>
+    <string name="menu_food">Food</string>
+    <string name="menu_myaccount">My Account</string>
+    <string name="menu_promocodes">Promo Codes</string>
+    <string name="menu_rateurvisit">RateURVisit</string>
+    <string name="menu_contactus">Contact Us</string>
+    <string name="menu_fag">FAG</string>
+    <string name="menu_aboutboncafe">About BonCafe\'s</string>
+    <string name="menu_careers">Careers</string>
+    <string name="menu_regionlanguages">Region &amp; Language</string>
+    <string name="home_des_rewards">Image for Reward and Details</string>
+
+</resources>
