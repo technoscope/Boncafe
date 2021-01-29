@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.regionlanguage.RegionLanguageFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="10"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="60dp"
+        android:layout_weight="30"
+        android:background="@drawable/ic_worldwide" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="50"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Before we enter make sure you have selected the correct country and language"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/id_countryselector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/icon_region"
+            android:text="  Pakistan"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/id_langauge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/ic_message"
+            android:text="  English"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@color/black"
+            android:text="Confirm" />
+    </LinearLayout>
+
+</LinearLayout>

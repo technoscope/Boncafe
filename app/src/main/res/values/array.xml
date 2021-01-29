@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cafenames">
+        <item>Select Branch</item>
+        <item>Boncafe A</item>
+        <item>Boncafe B</item>
+        <item>Boncafe C</item>
+        <item>Boncafe D</item>
+        <item>Boncafe E</item>
+        <item>Boncafe F</item>
+        <item>Boncafe G</item>
+        <item>Boncafe H</item>
+        <item>Boncafe I</item>
+        <item>Boncafe J</item>
+        <item>Boncafe K</item>
+        <item>Boncafe L</item>
+        <item>Boncafe M</item>
+        <item>Boncafe N</item>
+        <item>Boncafe O</item>
+        <item>Boncafe P</item>
+        <item>Boncafe Q</item>
+        <item>Boncafe R</item>
+        <item>Boncafe S</item>
+        <item>Boncafe T</item>
+        <item>Boncafe U</item>
+        <item>Boncafe V</item>
+        <item>Boncafe W</item>
+        <item>Boncafe X</item>
+        <item>Boncafe Y</item>
+        <item>Boncafe Z</item>
+    </string-array>
+</resources>

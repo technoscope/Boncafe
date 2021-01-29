@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.accountscreen.AccountFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:contentDescription="logo for cofee"
+        android:src="@drawable/siginlogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/circle"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="Email Address"
+            app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_ac_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/circle"
+            android:focusableInTouchMode="true"
+            android:hint="Password"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/id_ac_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/id_ac_forgot_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="can't remember your password "
+            android:textColor="#665B54" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/id_ac_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:text="Login"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/id_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="CREATE ACCOUNT "
+            android:textColor="#665B54"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

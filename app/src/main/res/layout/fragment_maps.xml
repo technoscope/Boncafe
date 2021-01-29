@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.cafe.MapsFragment" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_currentlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/gps"
+        android:src="@drawable/ic_gps_fixed" />
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/filter"
+        android:text="Need a cup of coffee"
+        app:extendMotionSpec="@anim/fragment_fade_exit"
+        app:icon="@drawable/icon_location"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

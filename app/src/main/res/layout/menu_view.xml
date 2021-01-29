@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="276dp"
+    android:layout_margin="4dp"
+    android:background="@color/cofeewhite"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="4dp">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/id_homeview_container"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardCornerRadius="20dp"
+        app:rippleColor="@color/themecolor">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/id_menu_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="TODO"
+            fresco:placeholderImage="@drawable/broken_image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/id_menu_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:layout_marginStart="1dp"/>
+    <TextView
+        android:id="@+id/id_menu_item_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textAlignment="viewStart"
+        android:padding="4dp"
+        android:layout_marginStart="4dp"/>
+    <TextView
+        android:id="@+id/id_menu_item_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textAlignment="viewEnd"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:layout_marginStart="4dp"/>
+
+</LinearLayout>

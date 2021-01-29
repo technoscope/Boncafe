@@ -10,7 +10,7 @@
             android:icon="@drawable/icon_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_rewards"
             android:icon="@drawable/ic_gift"
             android:title="@string/menu_rewards" />
         <item
@@ -18,9 +18,9 @@
             android:icon="@drawable/ic_delivery"
             android:title="@string/menu_boncafedelivery" />
         <item
-            android:id="@+id/nav_restaurant"
+            android:id="@+id/nav_cafe"
             android:icon="@drawable/icon_location"
-            android:title="@string/menu_resturant" />
+            android:title="@string/menu_cafes" />
         <item
             android:id="@+id/nav_menufood"
             android:icon="@drawable/icon_food"

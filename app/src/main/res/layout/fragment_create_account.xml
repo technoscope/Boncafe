@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.accountscreen.CreateAccountFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="All fields marked with *need to be filled in and/or checked."
+                android:textColor="#665B54" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="First Name *">
+                <!--        app:startIconDrawable="@drawable/ic_baseline_email_24">-->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_firstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Last Name *">
+                <!--        app:startIconDrawable="@drawable/ic_baseline_email_24">-->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Email *"
+                app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_create_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="This email is used for login and password retrieval so make sure it's valid one."
+                android:textColor="#665B54" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Pick Password *"
+                app:startIconCheckable="true"
+                app:startIconDrawable="@drawable/ic_visibilty_on">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_pick_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Confirm Password *"
+                app:startIconCheckable="true"
+                app:startIconDrawable="@drawable/ic_visibilty_on">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Phone no"
+                app:startIconCheckable="true"
+                app:startIconDrawable="@drawable/ic_visibilty_on">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_phone_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Must include 8 characters, 1 uppercase, 1 lowercase and 1 digit."
+                android:textColor="#665B54" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="OPTIONAL"
+                android:textColor="#665B54"
+                android:textSize="18sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Gender (Optional) *"
+                app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/circle"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Date of Birth(optional) *"
+                app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_date_of_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <com.google.android.material.textview.MaterialTextView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="0.8"-->
+<!--                    android:text="Bon Cafe send me information via email regarding McDonald's products and services."-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="#665B54" />-->
+
+<!--                <com.google.android.material.switchmaterial.SwitchMaterial-->
+<!--                    android:id="@+id/radio_btn"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp" />-->
+<!--            </LinearLayout>-->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/continue_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="14dp"
+                android:text="Continue"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

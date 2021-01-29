@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cofeewhite"
     android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
-    <LinearLayout
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/id___ads"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="0.4"
-        android:background="@drawable/iconmainadd1">
-
-        <ImageView
-            android:id="@+id/id_home_image"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:contentDescription="@string/home_des_rewards"
-            android:src="@drawable/iconmainadd"
-            android:visibility="gone" />
-    </LinearLayout>
+        android:layout_weight="0.5"
+        fresco:placeholderImage="@drawable/broken_image" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,8 +25,10 @@
             android:id="@+id/id_home_gridview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
             android:numColumns="2"
-            android:padding="2dp" />
+            android:padding="4dp" />
         <!--        <ScrollView-->
         <!--            android:layout_width="match_parent"-->
         <!--            android:layout_height="match_parent">-->

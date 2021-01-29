@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/id_rewardsview_container"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        app:cardCornerRadius="20dp"
+        app:rippleColor="@color/white">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/id_rewardview_img"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            fresco:placeholderImage="@drawable/broken_image"/>
+        <TextView
+            android:id="@+id/id_rewardsview_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="sans-serif-medium"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints,RtlCompat" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

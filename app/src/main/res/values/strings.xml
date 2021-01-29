@@ -8,16 +8,28 @@
     <string name="menu_home">Home</string>
     <string name="menu_rewards">Rewards</string>
     <string name="menu_boncafedelivery">BonCafe Delivery</string>
-    <string name="menu_resturant">Restuarant</string>
-    <string name="menu_food">Food</string>
+    <string name="menu_cafes">BonCafe\'s</string>
+    <string name="menu_food">BonCafe Menu</string>
     <string name="menu_myaccount">My Account</string>
     <string name="menu_promocodes">Promo Codes</string>
     <string name="menu_rateurvisit">RateURVisit</string>
-    <string name="menu_contactus">Contact Us</string>
-    <string name="menu_fag">FAG</string>
+    <string name="menu_contactus">Complaint &amp; Contact Us</string>
+    <string name="menu_fag">FAQ</string>
     <string name="menu_aboutboncafe">About BonCafe\'s</string>
     <string name="menu_careers">Careers</string>
     <string name="menu_regionlanguages">Region &amp; Language</string>
     <string name="home_des_rewards">Image for Reward and Details</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inbox_msg">Please check your inbox</string>
+    <string name="inbox_msg_verify">we just sent you 6_digit verification code, check your inbox and enter the code below to activate the two-factor authentication</string>
+    <string name="done_msg">Congrats on signing up.Now check out the deals section for some tasy tastiness!</string>
+    <string name="menu_coffee">Menu Coffee</string>
+    <string name="filter">Filter</string>
+    <string name="gps">gps</string>
+    <string name="directions">Directions</string>
+    <string name="developer_auth_key">hyTRv98JMM7Y2H57</string>
+    <string name="key">3</string>
+    <string name="channel_name">BonCafe Notification</string>
+    <string name="channel_description">"Notification for latest deals and offer "</string>
 </resources>

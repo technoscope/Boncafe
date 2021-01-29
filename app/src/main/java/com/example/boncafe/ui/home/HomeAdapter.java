@@ -21,7 +21,7 @@ class HomeAdapter extends BaseAdapter {
     private LayoutInflater inflator;
     private Context context;
     private ArrayList<HomeModel> viewList;
-    CardView container;
+    ImageView imageView;
     TextView text;
 
 
@@ -50,10 +50,8 @@ class HomeAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         inflator = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         view = inflator.inflate(R.layout.home_view, null);
-        container = view.findViewById(R.id.id_homeview_container);
-        container.setBackground(context.getDrawable(viewList.get(i).getDrawablePath()));
-        ImageView imageView=view.findViewById(R.id.id_img);
-        //imageView.setImageDrawable(context.getDrawable(viewList.get(i).getDrawablePath()));
+        imageView = view.findViewById(R.id.id_home_img);
+        imageView.setBackground(context.getDrawable(viewList.get(i).getDrawablePath()));
         text = view.findViewById(R.id.id_homeview_text);
         text.setText(viewList.get(i).getText());
         return view;

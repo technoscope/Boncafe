@@ -12,19 +12,75 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.boncafe.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_rewards"
+        android:name="com.example.boncafe.ui.rewards.RewardsFragment"
         android:label="@string/menu_rewards"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_rewards" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.boncafe.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_createaccount"
+        android:name="com.example.boncafe.ui.accountscreen.CreateAccountFragment"
         android:label="@string/menu_boncafedelivery"
-        tools:layout="@layout/fragment_slideshow" />
-<!--    <fragment-->
-<!--        android:id="@+id/nav_slideshow2"-->
-<!--        android:name="com.example.boncafe.ui.slideshow.SlideshowFragment"-->
-<!--        android:label="@string/menu_mcdelivery"-->
-<!--        tools:layout="@layout/fragment_slideshow" />-->
+        tools:layout="@layout/fragment_create_account" />
+    <fragment
+        android:id="@+id/nav_myaccount"
+        android:name="com.example.boncafe.ui.accountscreen.AccountFragment"
+        android:label="@string/menu_myaccount"
+        tools:layout="@layout/fragment_account">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_cafe"
+        android:name="com.example.boncafe.ui.cafe.CafeFragment"
+        android:label="@string/menu_cafes"
+        tools:layout="@layout/fragment_cafe">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cafe_maps"
+        android:name="com.example.boncafe.ui.cafe.MapsFragment"
+        android:label="@string/menu_cafes"
+        tools:layout="@layout/fragment_maps">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cafe_branches"
+        android:name="com.example.boncafe.ui.cafe.BranchesListFragment"
+        android:label="@string/menu_cafes"
+        tools:layout="@layout/fragment_item_list" />
+    <fragment
+        android:id="@+id/nav_cafe_branches_details"
+        android:name="com.example.boncafe.ui.cafe.BranchDetailFragment"
+        android:label="@string/menu_cafes"
+        tools:layout="@layout/fragment_branch_detail">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.boncafe.ui.faqs.FAQFragment"
+        android:label="@string/menu_fag"
+        tools:layout="@layout/fragment_f_a_q"/>
+
+    <fragment
+        android:id="@+id/nav_menufood"
+        android:name="com.example.boncafe.ui.boncafemenu.MenuCoffeeFragment"
+        android:label="@string/menu_coffee"
+        tools:layout="@layout/fragment_menu_coffee" />
+
+    <fragment
+        android:id="@+id/nav_promocodes"
+        android:name="com.example.boncafe.ui.promocode.PromoCodeFragment"
+        android:label="@string/menu_promocodes"
+        tools:layout="@layout/fragment_promo_code" />
+    <fragment
+        android:id="@+id/nav_regionlng"
+        android:name="com.example.boncafe.ui.regionlanguage.RegionLanguageFragment"
+        android:label="@string/menu_regionlanguages"
+        tools:layout="@layout/fragment_region_language" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.boncafe.ui.complaincontact.ComplainContactFragment"
+        android:label="@string/menu_contactus"
+        tools:layout="@layout/fragment_complain_contact" />
 </navigation>

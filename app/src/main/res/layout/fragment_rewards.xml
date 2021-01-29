@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_boncafebackground"
+    android:orientation="vertical"
+    tools:context=".ui.rewards.RewardsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layoutcorner"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Join and start collecting"
+                android:textColor="#000000"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="Become a member and get points for some really sweet deals"
+                android:textColor="#000000"
+                android:layout_marginStart="34dp"
+                android:layout_marginEnd="34dp"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/id_rewards_sigin_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="SIGN IN" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.1"
+        android:orientation="vertical">
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:id="@+id/chip_group">
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="new coffee"
+                app:rippleColor="@color/themecolor"/>
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="special coffee"
+                app:rippleColor="@color/themecolor"/>
+
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="combo coffee"
+                app:rippleColor="@color/themecolor"
+                />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <GridView
+            android:id="@+id/id_rewards_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="1"
+            android:padding="2dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
